@@ -13,7 +13,7 @@
     WKWebViewConfiguration *_config;
 }
 @property (nonatomic, strong) WKWebView *webView;
-@property (nonatomic, strong)uip
+@property (nonatomic, strong)UIProgressView *progressView;
 
 @property (nonatomic) id<WKUIDelegate> UIDelegate;
 @property (nonatomic) id<WKNavigationDelegate> NavDelegate;
